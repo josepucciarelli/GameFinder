@@ -4,7 +4,7 @@ import logo from "../assets/logo - GameFinder.png";
 const NavBar = () => {
   return (
     <HStack>
-      <Image src={logo} boxSize="50px" m="5px" border={5} />
+      <Image src={logo} boxSize="50px" m="5px" borderRadius={5} />
       <Text>NavBar</Text>
     </HStack>
   );
