@@ -1,4 +1,5 @@
 import useData from "./useData";
+import { FetchResponse } from "../services/api-client";
 
 export interface Platform {
   id: number;
