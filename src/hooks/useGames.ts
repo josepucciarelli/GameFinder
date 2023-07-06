@@ -23,8 +23,8 @@ useInfiniteQuery<FetchResponse<Game>, Error>({
     apiClient
       .get<FetchResponse<Game>>('/games',{
         params: { 
-          genres: gameQuery.genre?.id, 
-          parent_platforms: gameQuery.platform?.id,
+          genres: gameQuery.genreId, 
+          parent_platforms: gameQuery.platformId,
           ordering: gameQuery.sortOrder,
           search: gameQuery.searchText,
           page: pageParam,
