@@ -11,4 +11,6 @@ export default Axios.create({
   params: {
     key: 'fc60f58f80494f39a6f5345878d05c55'
   },
-});
+})
+
+
